@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ScatteredGraphComponent } from './common/scattered-graph/scattered-graph.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScatteredGraphComponent
   ],
   imports: [
     BrowserModule
